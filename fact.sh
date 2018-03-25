@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "Enter no whose fact is to be found out:"
 read n
 fact=1
