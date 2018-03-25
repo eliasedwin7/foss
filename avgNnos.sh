@@ -17,6 +17,6 @@ for ((i=0;i < n; i++))
 	
 avg=$( echo "scale=3; $sum/$n" | bc )  #Returns quotient with precision upto 3 decimal units 
                                       #Does not check if n is 0 or not, modify acc to your need!
-                                      #bc will return an error of n=0, try it out
+                                      
 echo "Average is: $avg"
 
